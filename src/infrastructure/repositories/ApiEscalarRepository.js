@@ -1,6 +1,6 @@
 export default class ApiEscalarRepository {
     constructor() {
-        this.baseUrl = "/api/escalars";
+        this.baseUrl = "https://parcial1-back-xbxg.onrender.com/api/escalars";
     }
     async save(escalar) {
         const response = await fetch(this.baseUrl, {
